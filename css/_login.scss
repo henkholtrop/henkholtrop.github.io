@@ -1,0 +1,38 @@
+.login-background {
+  background: $nam-green;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.login-wrap {
+  width: 210px;
+  height: auto;
+  padding: 25px 40px 10px ;
+  background-color: $nam-white;
+  border-radius: 4px;
+  div {
+    margin: auto;
+  }
+  img {
+    content: url('../img/nam-logo-grey.png');
+    margin: 0 77px 20px;
+  }
+}
+
+.error-message-username, .error-message-password {
+  width: 195px;
+  position: absolute;
+  color: $nam-white;
+  font-style: italic;
+  top: 117px;
+  right: -210px;
+}
+
+.error-message-username {
+  top: 117px;
+}
+
+.error-message-password {
+  top: 170px;
+}
