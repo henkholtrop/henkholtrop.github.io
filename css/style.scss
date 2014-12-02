@@ -4,6 +4,7 @@
 @import 'case-upload';
 @import 'login';
 @import 'notifications';
+@import 'user';
 
 html {
   height: 100%;
@@ -12,6 +13,11 @@ html {
 body {
   margin: 0 auto;
   height: 100%;
+}
+
+.header-wrapper {
+  width: 75%;
+  margin: 0 auto;
 }
 
 .clear {
@@ -28,13 +34,13 @@ header {
   height: 60px;
   background: $nam-green;
   img {
-    margin: 12px 0 0 5%;
+    margin: 12px 0 0 0;
     content: url('../img/nam-logo.svg')no-repeat;
     float: left;
     width: 128px;
   }
   nav {
-    margin-right: 5%;
+    margin-right: 0;
     ul {
       list-style: none;
       float: right;
@@ -75,7 +81,7 @@ header {
         padding: 17px 0;
       }
       .case-name {
-        width: 55%;
+        width: 65%;
         padding-left: 3%;
         a {
           color: $nam-grey;
@@ -86,11 +92,11 @@ header {
         }
       }
       .case-type {
-        width: 25%;
+        width: 20%;
         color: $nam-grey;
       }
       .case-status {
-        width: 15%;
+        width: 10%;
         color: $nam-darkgrey;
         font-weight: 200;
         font-style: italic;
@@ -125,20 +131,20 @@ header {
   border-bottom-color: $nam-lightgrey;
 
   .case-name-head {
-    width: 54.7%;
+    width: 64.7%;
     padding-left: 3%;
     float: left;
     font-size: 0.8em;
   }
   
   .case-type-head {
-    width: 26.2%;
+    width: 21.2%;
     float: left;
     font-size: 0.8em;
   }
   
   .case-status-head {
-    width: 15%;
+    width: 10%;
     float: left;
     font-size: 0.8em;
   }
