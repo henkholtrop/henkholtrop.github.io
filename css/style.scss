@@ -1,0 +1,152 @@
+@import 'color';
+@import 'typography';
+@import 'buttons';
+@import 'login';
+@import 'notifications';
+@import 'user';
+@import 'popups';
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.header-wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.clear {
+  clear:both;
+  line-height:0;
+}
+
+.highlight {
+  background: $nam-lightgrey;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background: $nam-green;
+  img {
+    margin: 12px 0 0 0;
+    content: url('../img/nam-logo.svg')no-repeat;
+    float: left;
+    width: 128px;
+  }
+  .nav {
+    margin-right: 0;
+    ul {
+      list-style: none;
+      float: right;
+      margin: 0;
+      a {
+        color: $nam-white;
+        font-size: 1.125em;
+        li {
+          float: left;
+          line-height: 60px;
+          padding: 0 20px;
+          &:hover {
+            background: $nam-lightgreen;
+          }
+        }
+      }
+    }
+  }
+}
+
+.main {
+  width: 75%;
+  margin: 40px auto;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: table;
+      width: 100%;
+      &:hover {
+        background: $nam-lightergrey;
+      }
+      div {
+        display: table-cell;
+        border-bottom: 1px solid;
+        border-bottom-color: $nam-lightgrey;
+        padding: 17px 0;
+      }
+      .case-name {
+        width: 65%;
+        padding-left: 3%;
+        a {
+          color: $txt-normal;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      .case-type {
+        width: 20%;
+        color: $txt-normal;
+      }
+      .case-status {
+        width: 10%;
+        color: $txt-dark;
+        font-weight: 200;
+        font-style: italic;
+      }
+    }
+  }
+}
+
+.breadcrumb {
+  float: left;
+  a {
+    color: $txt-light;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+    &:last-child {
+      font-weight: 600;
+      color: $txt-dark;
+    }
+  }
+}
+
+.button-wrapper {
+  float: right;
+  margin-bottom: 30px;
+}
+
+.listheading {
+  width: 100%;
+  height: 30px;
+  border-bottom: 3px solid;
+  border-bottom-color: $nam-lightgrey;
+
+  .case-name-head {
+    width: 64.7%;
+    padding-left: 3%;
+    float: left;
+    font-size: 0.8em;
+  }
+  
+  .case-type-head {
+    width: 21.2%;
+    float: left;
+    font-size: 0.8em;
+  }
+  
+  .case-status-head {
+    width: 10%;
+    float: left;
+    font-size: 0.8em;
+  }
+}
