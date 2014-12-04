@@ -1,14 +1,14 @@
 $listmenu-icons:(button-add,button-edit,button-delete);
 @each $icons in $listmenu-icons {
   .#{$icons} { 
-    content: url('../img/#{$icons}.svg')no-repeat;
+    content: url('../img/#{$icons}.png')no-repeat;
   }
 }
 
 .blue-button-round, .grey-button-round, .red-button-round {
   height: 35px;
   width: 35px;
-  border-radius: 4px;
+  border-radius: 35px;
   float: left;
   margin-left: 10px;
   color: $nam-white;
@@ -31,7 +31,8 @@ $listmenu-icons:(button-add,button-edit,button-delete);
 }
 
 .close-add {
-  content: url('../img/close.svg');
+  background-image: url('../img/close.png');
+  background-size: 24px;
   position: absolute;
   height: 24px;
   width: 24px;
@@ -195,7 +196,7 @@ $listmenu-icons:(button-add,button-edit,button-delete);
 }
 
 .file-inputfield::before {
-  content: url('../img/upload-button.svg');
+  background-image: url('../img/upload-button.svg');
   display: block;
   white-space: nowrap;
   -webkit-user-select: none;

@@ -28,18 +28,18 @@ a {
   color: #4a90e2; }
 
 .button-add {
-  content: url("../img/button-add.svg") no-repeat; }
+  content: url("../img/button-add.png") no-repeat; }
 
 .button-edit {
-  content: url("../img/button-edit.svg") no-repeat; }
+  content: url("../img/button-edit.png") no-repeat; }
 
 .button-delete {
-  content: url("../img/button-delete.svg") no-repeat; }
+  content: url("../img/button-delete.png") no-repeat; }
 
 .blue-button-round, .grey-button-round, .red-button-round {
   height: 35px;
   width: 35px;
-  border-radius: 4px;
+  border-radius: 35px;
   float: left;
   margin-left: 10px;
   color: white;
@@ -59,7 +59,8 @@ a {
   margin-right: 70px; }
 
 .close-add {
-  content: url("../img/close.svg");
+  background-image: url("../img/close.png");
+  background-size: 24px;
   position: absolute;
   height: 24px;
   width: 24px;
@@ -188,7 +189,7 @@ a {
   display: none; }
 
 .file-inputfield::before {
-  content: url("../img/upload-button.svg");
+  background-image: url("../img/upload-button.svg");
   display: block;
   white-space: nowrap;
   -webkit-user-select: none;
@@ -241,9 +242,11 @@ a {
   behavior: url("../js/PIE.htc"); }
   .login-wrap div {
     margin: auto; }
-  .login-wrap img {
+  .login-wrap .grey-logo {
     background-image: url("../img/nam-logo-grey.png");
+    background-size: 55px;
     width: 55px;
+    height: 53px;
     margin: 0 75px 20px; }
 
 .error-message-username, .error-message-password {
@@ -286,7 +289,8 @@ a {
   -webkit-transform: translateY(100px);
   -webkit-animation: slideUp 4s 0.25s 1 ease forwards;
   -moz-transform: translateY(100px);
-  -moz-animation: slideUp 4s 0.25s 1 ease forwards; }
+  -moz-animation: slideUp 4s 0.25s 1 ease forwards;
+  behavior: url("../js/PIE.htc"); }
 
 .red-notification {
   content: url("../img/red-notification.svg");
@@ -296,7 +300,8 @@ a {
   border-radius: 12px;
   border: 1px solid;
   border-color: #fb6d50;
-  margin-right: 50px; }
+  margin-right: 50px;
+  behavior: url("../js/PIE.htc"); }
 
 .green-notification {
   content: url("../img/green-notification.svg");
@@ -306,7 +311,8 @@ a {
   border-radius: 12px;
   border: 1px solid;
   border-color: #6abf28;
-  margin-right: 50px; }
+  margin-right: 50px;
+  behavior: url("../js/PIE.htc"); }
 
 .notification-cell {
   display: table-cell;
@@ -369,9 +375,6 @@ a {
   background-color: rgba(0, 0, 0, 0.3);
   display: none; }
 
-.option {
-  margin: 0 0 15px 0; }
-
 .box-wrapper {
   width: 210px;
   background-color: white;
@@ -379,7 +382,8 @@ a {
   display: table;
   border-radius: 8px;
   overflow: hidden;
-  padding: 0 40px 20px; }
+  padding: 0 40px 20px;
+  behavior: url("../js/PIE.htc"); }
 
 .box-row-wrapper {
   display: table-row; }
@@ -433,7 +437,7 @@ body {
   background: #6abf28; }
   .header img {
     margin: 12px 0 0 0;
-    content: url("../img/nam-logo.svg") no-repeat;
+    content: url("../img/nam-logo.png") no-repeat;
     float: left;
     width: 128px; }
   .header .nav {
@@ -467,11 +471,10 @@ body {
       .main ul li div {
         display: table-cell;
         border-bottom: 1px solid;
-        border-bottom-color: #ecf0f1;
-        padding: 17px 0; }
+        border-bottom-color: #ecf0f1; }
       .main ul li .case-name {
-        width: 65%;
-        padding-left: 3%; }
+        width: 62%;
+        padding: 17px 3%; }
         .main ul li .case-name a {
           color: #6e6e6e;
           text-decoration: none; }
@@ -493,9 +496,10 @@ body {
     text-decoration: none; }
     .breadcrumb a:hover {
       text-decoration: underline; }
-    .breadcrumb a:last-child {
-      font-weight: 600;
-      color: #555555; }
+
+#breadcrumb-highlight {
+  font-weight: 600;
+  color: #555555; }
 
 .button-wrapper {
   float: right;

@@ -35,7 +35,7 @@ body {
   background: $nam-green;
   img {
     margin: 12px 0 0 0;
-    content: url('../img/nam-logo.svg')no-repeat;
+    content: url('../img/nam-logo.png')no-repeat;
     float: left;
     width: 128px;
   }
@@ -78,11 +78,10 @@ body {
         display: table-cell;
         border-bottom: 1px solid;
         border-bottom-color: $nam-lightgrey;
-        padding: 17px 0;
       }
       .case-name {
-        width: 65%;
-        padding-left: 3%;
+        width: 62%;
+        padding: 17px 3%;
         a {
           color: $txt-normal;
           text-decoration: none;
@@ -113,11 +112,12 @@ body {
     &:hover {
       text-decoration: underline;
     }
-    &:last-child {
-      font-weight: 600;
-      color: $txt-dark;
-    }
   }
+}
+
+#breadcrumb-highlight {
+  font-weight: 600;
+  color: $txt-dark;
 }
 
 .button-wrapper {
