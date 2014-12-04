@@ -1,10 +1,3 @@
-$listmenu-icons:(button-add,button-edit,button-delete);
-@each $icons in $listmenu-icons {
-  .#{$icons} { 
-      content: url('../img/#{$icons}.png') no-repeat 24px;
-  }
-}
-
 .blue-button-round, .grey-button-round, .red-button-round {
   height: 35px;
   width: 35px;
@@ -16,6 +9,10 @@ $listmenu-icons:(button-add,button-edit,button-delete);
   -moz-box-shadow:    0px 1px 2px 0px rgba(0,0,0,0.30);
   box-shadow:         0px 1px 2px 0px rgba(0,0,0,0.30);
   behavior: url('../js/PIE.htc');
+  img {
+    height: 35px;
+    width: 35px;
+  }
 }
 
 .right {
@@ -31,7 +28,7 @@ $listmenu-icons:(button-add,button-edit,button-delete);
 }
 
 .close-add {
-  content: url('../img/close.png') no-repeat 24px;
+  content: url('../img/close.png') no-repeat;
   position: absolute;
   height: 24px;
   width: 24px;

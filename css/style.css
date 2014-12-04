@@ -27,15 +27,6 @@ a {
   font-size: em(10px);
   color: #4a90e2; }
 
-.button-add {
-  content: url("../img/button-add.png") no-repeat 24px; }
-
-.button-edit {
-  content: url("../img/button-edit.png") no-repeat 24px; }
-
-.button-delete {
-  content: url("../img/button-delete.png") no-repeat 24px; }
-
 .blue-button-round, .grey-button-round, .red-button-round {
   height: 35px;
   width: 35px;
@@ -47,6 +38,9 @@ a {
   -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
   behavior: url("../js/PIE.htc"); }
+  .blue-button-round img, .grey-button-round img, .red-button-round img {
+    height: 35px;
+    width: 35px; }
 
 .right {
   float: right; }
@@ -59,7 +53,7 @@ a {
   margin-right: 70px; }
 
 .close-add {
-  content: url("../img/close.png") no-repeat 24px;
+  content: url("../img/close.png") no-repeat;
   position: absolute;
   height: 24px;
   width: 24px;
@@ -372,7 +366,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background: url("../img/transparent-bg.png") repeat;
   display: none; }
 
 .box-wrapper {
@@ -511,12 +505,12 @@ body {
   border-bottom: 3px solid;
   border-bottom-color: #ecf0f1; }
   .listheading .case-name-head {
-    width: 64.7%;
+    width: 64.4%;
     padding-left: 3%;
     float: left;
     font-size: 0.8em; }
   .listheading .case-type-head {
-    width: 21.2%;
+    width: 21.65%;
     float: left;
     font-size: 0.8em; }
   .listheading .case-status-head {
