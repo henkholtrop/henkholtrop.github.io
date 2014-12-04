@@ -21,7 +21,11 @@ h3 {
 h4 {
   font-size: em(14px);
   font-weight: 400;
-  color: #d4d4d4; }
+  color: #D4D4D4; }
+
+a {
+  font-size: em(10px);
+  color: #4A90E2; }
 
 a {
   font-size: em(10px);
@@ -42,7 +46,11 @@ a {
   border-radius: 18px;
   float: left;
   margin-left: 10px;
+<<<<<<< HEAD
   color: white;
+=======
+  color: #FFFFFF;
+>>>>>>> FETCH_HEAD
   cursor: pointer;
   -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3); }
@@ -64,31 +72,49 @@ a {
   width: 24px;
   border-radius: 12px;
   border: 1px solid;
+<<<<<<< HEAD
   border-color: #3b3d46;
+=======
+  border-color: #3B3D46;
+>>>>>>> FETCH_HEAD
   right: 15px;
   top: 13px;
   cursor: pointer; }
 
 .blue-button-round {
+<<<<<<< HEAD
   background-color: #4a90e2; }
   .blue-button-round:hover {
     background-color: #6fa5e5; }
   .blue-button-round:active {
     background-color: #3c80d1; }
+=======
+  background-color: #4A90E2; }
+  .blue-button-round:hover {
+    background-color: #6FA5E5; }
+  .blue-button-round:active {
+    background-color: #3C80D1; }
+>>>>>>> FETCH_HEAD
 
 .grey-button-round {
-  background-color: #b2b8c5; }
+  background-color: #B2B8C5; }
   .grey-button-round:hover {
-    background-color: #d0d6e3; }
+    background-color: #D0D6E3; }
   .grey-button-round:active {
-    background-color: #9a9fab; }
+    background-color: #9A9FAB; }
 
 .red-button-round {
-  background-color: #fb6d50; }
+  background-color: #FB6D50; }
   .red-button-round:hover {
+<<<<<<< HEAD
     background-color: #fa8c75; }
   .red-button-round:active {
     background-color: #f06143; }
+=======
+    background-color: #FA8C75; }
+  .red-button-round:active {
+    background-color: #F06143; }
+>>>>>>> FETCH_HEAD
 
 .blue-button-square, .green-button-square, .red-button-square, .grey-button-square {
   height: 33px;
@@ -97,7 +123,7 @@ a {
   margin-bottom: 10px;
   line-height: 32px;
   border-radius: 4px;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   border: 0 none;
   font-size: 0.875em;
@@ -108,6 +134,7 @@ a {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3); }
 
 .grey-button-square {
+<<<<<<< HEAD
   background: #b2b8c5; }
   .grey-button-square:hover {
     background: #d0d6e3; }
@@ -134,6 +161,34 @@ a {
     background: #fa8c75; }
   .red-button-square:active {
     background: #f06143; }
+=======
+  background: #B2B8C5; }
+  .grey-button-square:hover {
+    background: #D0D6E3; }
+  .grey-button-square:active {
+    background: #9A9FAB; }
+
+.blue-button-square {
+  background: #4A90E2; }
+  .blue-button-square:hover {
+    background: #6FA5E5; }
+  .blue-button-square:active {
+    background: #3C80D1; }
+
+.green-button-square {
+  background: #6ABF28; }
+  .green-button-square:hover {
+    background: #82D542; }
+  .green-button-square:active {
+    background: #60AF23; }
+
+.red-button-square {
+  background: #FB6D50; }
+  .red-button-square:hover {
+    background: #FA8C75; }
+  .red-button-square:active {
+    background: #F06143; }
+>>>>>>> FETCH_HEAD
 
 .blue-large-button-square, .green-large-button-square, .red-large-button-square {
   height: 33px;
@@ -141,7 +196,7 @@ a {
   margin: 10px 0px;
   line-height: 32px;
   border-radius: 4px;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   border: 0 none;
   font-size: 0.875em;
@@ -152,6 +207,7 @@ a {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3); }
 
 .blue-large-button-square {
+<<<<<<< HEAD
   background: #4a90e2; }
   .blue-large-button-square:hover {
     background: #6fa5e5; }
@@ -171,6 +227,27 @@ a {
     background: #fa8c75; }
   .red-large-button-square:pressed {
     background: #f06143; }
+=======
+  background: #4A90E2; }
+  .blue-large-button-square:hover {
+    background: #6FA5E5; }
+  .blue-large-button-square:pressed {
+    background: #3C80D1; }
+
+.green-large-button-square {
+  background: #6ABF28; }
+  .green-large-button-square:hover {
+    background: #82D542; }
+  .green-large-button-square:pressed {
+    background: #60AF23; }
+
+.red-large-button-square {
+  background: #FB6D50; }
+  .red-large-button-square:hover {
+    background: #FA8C75; }
+  .red-large-button-square:pressed {
+    background: #F06143; }
+>>>>>>> FETCH_HEAD
 
 .inputfield {
   height: 31px;
@@ -178,7 +255,7 @@ a {
   margin-bottom: 10px;
   border-radius: 4px;
   border: 1px solid;
-  border-color: #4a90e2; }
+  border-color: #4A90E2; }
 
 .file-inputfield::-webkit-file-upload-button {
   display: none; }
@@ -193,10 +270,17 @@ a {
   width: 210px;
   border-radius: 4px;
   border: 1px dashed;
+<<<<<<< HEAD
   border-color: #4a90e2;
   text-align: center;
   line-height: 170px;
   color: #4a90e2; }
+=======
+  border-color: #4A90E2;
+  text-align: center;
+  line-height: 170px;
+  color: #4A90E2; }
+>>>>>>> FETCH_HEAD
 
 .case-type-button {
   float: left;
@@ -223,7 +307,7 @@ a {
   margin: 0 17px; }
 
 .login-background {
-  background: #6abf28;
+  background: #6ABF28;
   position: absolute;
   height: 100%;
   width: 100%; }
@@ -232,7 +316,7 @@ a {
   width: 210px;
   display: table;
   padding: 25px 40px 10px;
-  background-color: white;
+  background-color: #FFFFFF;
   border-radius: 4px; }
   .login-wrap div {
     margin: auto; }
@@ -243,7 +327,7 @@ a {
 .error-message-username, .error-message-password {
   width: 195px;
   position: absolute;
-  color: white;
+  color: #FFFFFF;
   font-style: italic;
   top: 117px;
   right: -210px; }
@@ -256,7 +340,7 @@ a {
 
 .error-notification, .succes-notification {
   border-radius: 8px 8px 0 0;
-  background: white;
+  background: #FFFFFF;
   -moz-box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.11);
   box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.11);
   height: 52px;
@@ -274,7 +358,11 @@ a {
   font-weight: 300;
   font-style: italic;
   font-size: 1em;
+<<<<<<< HEAD
   color: #6e6e6e;
+=======
+  color: #6E6E6E;
+>>>>>>> FETCH_HEAD
   line-height: 24px;
   z-index: 100;
   -webkit-transform: translateY(100px);
@@ -289,7 +377,11 @@ a {
   width: 24px;
   border-radius: 12px;
   border: 1px solid;
+<<<<<<< HEAD
   border-color: #fb6d50;
+=======
+  border-color: #FB6D50;
+>>>>>>> FETCH_HEAD
   margin-right: 50px; }
 
 .green-notification {
@@ -299,7 +391,11 @@ a {
   width: 24px;
   border-radius: 12px;
   border: 1px solid;
+<<<<<<< HEAD
   border-color: #6abf28;
+=======
+  border-color: #6ABF28;
+>>>>>>> FETCH_HEAD
   margin-right: 50px; }
 
 .notification-cell {
@@ -309,23 +405,17 @@ a {
 @-webkit-keyframes slideUp {
   0%, 100% {
     -webkit-transform: translateY(100px); }
-
   80% {
     -moz-transform: translateY(-10px); }
-
   10%, 90% {
     -webkit-transform: translateY(0px); } }
-
 @-moz-keyframes slideUp {
   0%, 100% {
     -moz-transform: translateY(100px); }
-
   80% {
     -moz-transform: translateY(-10px); }
-
   10%, 90% {
     -moz-transform: translateY(0px); } }
-
 .user-wrapper {
   width: 300px;
   margin: 0 auto; }
@@ -341,7 +431,7 @@ a {
   float: right;
   display: block;
   line-height: 30px;
-  color: #d4d4d4; }
+  color: #D4D4D4; }
 
 .user-data-status {
   width: 180px;
@@ -368,7 +458,11 @@ a {
 
 .box-wrapper {
   width: 210px;
+<<<<<<< HEAD
   background-color: white;
+=======
+  background-color: #FFFFFF;
+>>>>>>> FETCH_HEAD
   margin: auto;
   display: table;
   border-radius: 8px;
@@ -397,8 +491,13 @@ a {
   display: block;
   height: 50px;
   line-height: 50px;
+<<<<<<< HEAD
   background: white;
   color: #6e6e6e;
+=======
+  background: #FFFFFF;
+  color: #6E6E6E;
+>>>>>>> FETCH_HEAD
   text-align: center;
   border-radius: 8px 8px 0 0; }
 
@@ -418,13 +517,18 @@ body {
   line-height: 0; }
 
 .highlight {
-  background: #ecf0f1; }
+  background: #ECF0F1; }
 
 .header {
   width: 100%;
   height: 60px;
+<<<<<<< HEAD
   background: #6abf28; }
   .header img {
+=======
+  background: #6ABF28; }
+  header img {
+>>>>>>> FETCH_HEAD
     margin: 12px 0 0 0;
     content: url("../img/nam-logo.svg") no-repeat;
     float: left;
@@ -435,15 +539,25 @@ body {
       list-style: none;
       float: right;
       margin: 0; }
+<<<<<<< HEAD
       .header .nav ul a {
         color: white;
+=======
+      header nav ul a {
+        color: #FFFFFF;
+>>>>>>> FETCH_HEAD
         font-size: 1.125em; }
         .header .nav ul a li {
           float: left;
           line-height: 60px;
           padding: 0 20px; }
+<<<<<<< HEAD
           .header .nav ul a li:hover {
             background: #90d05e; }
+=======
+          header nav ul a li:hover {
+            background: #90D05E; }
+>>>>>>> FETCH_HEAD
 
 .main {
   width: 75%;
@@ -456,23 +570,23 @@ body {
       display: table;
       width: 100%; }
       .main ul li:hover {
-        background: #f6f6f6; }
+        background: #F6F6F6; }
       .main ul li div {
         display: table-cell;
         border-bottom: 1px solid;
-        border-bottom-color: #ecf0f1;
+        border-bottom-color: #ECF0F1;
         padding: 17px 0; }
       .main ul li .case-name {
         width: 65%;
         padding-left: 3%; }
         .main ul li .case-name a {
-          color: #6e6e6e;
+          color: #6E6E6E;
           text-decoration: none; }
           .main ul li .case-name a:hover {
             text-decoration: underline; }
       .main ul li .case-type {
         width: 20%;
-        color: #6e6e6e; }
+        color: #6E6E6E; }
       .main ul li .case-status {
         width: 10%;
         color: #555555;
@@ -498,7 +612,7 @@ body {
   width: 100%;
   height: 30px;
   border-bottom: 3px solid;
-  border-bottom-color: #ecf0f1; }
+  border-bottom-color: #ECF0F1; }
   .listheading .case-name-head {
     width: 64.7%;
     padding-left: 3%;
@@ -512,3 +626,5 @@ body {
     width: 10%;
     float: left;
     font-size: 0.8em; }
+
+/*# sourceMappingURL=style.css.map */

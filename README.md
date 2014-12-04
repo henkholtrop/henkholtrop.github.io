@@ -1,4 +1,0 @@
-namFrontend
-===========
-
-Front-end files
