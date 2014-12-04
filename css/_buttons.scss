@@ -15,7 +15,6 @@ $listmenu-icons:(button-add,button-edit,button-delete);
   cursor: pointer;
   -moz-box-shadow:    0px 1px 2px 0px rgba(0,0,0,0.30);
   box-shadow:         0px 1px 2px 0px rgba(0,0,0,0.30);
-  behavior: url(PIE.htc);
 }
 
 .right {
@@ -41,7 +40,6 @@ $listmenu-icons:(button-add,button-edit,button-delete);
   right: 15px;
   top: 13px;
   cursor: pointer;
-  behavior: url(PIE.htc);
 }
 
 .blue-button-round {
@@ -90,7 +88,6 @@ $listmenu-icons:(button-add,button-edit,button-delete);
   font-weight: 600;
   -moz-box-shadow:    0px 2px 4px 0px rgba(0,0,0,0.30);
   box-shadow:         0px 2px 4px 0px rgba(0,0,0,0.30);
-  behavior: url(PIE.htc);
 }
 
 .grey-button-square {
@@ -148,7 +145,6 @@ $listmenu-icons:(button-add,button-edit,button-delete);
   font-weight: 600;
   -moz-box-shadow:    0px 2px 4px 0px rgba(0,0,0,0.30);
   box-shadow:         0px 2px 4px 0px rgba(0,0,0,0.30);
-  behavior: url(PIE.htc);
 }
 
 .blue-large-button-square {
@@ -188,7 +184,6 @@ $listmenu-icons:(button-add,button-edit,button-delete);
   border-radius: 4px;
   border: 1px solid;
   border-color: $nam-lightblue;
-  behavior: url(PIE.htc);
 }
 
 .file-inputfield::-webkit-file-upload-button {
@@ -209,7 +204,6 @@ $listmenu-icons:(button-add,button-edit,button-delete);
   text-align: center;
   line-height: 170px;
   color: $nam-blue;
-  behavior: url(PIE.htc);
 }
 
 .case-type-button {

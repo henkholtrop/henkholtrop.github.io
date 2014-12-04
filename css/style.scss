@@ -29,7 +29,7 @@ body {
   background: $nam-lightgrey;
 }
 
-header {
+.header {
   width: 100%;
   height: 60px;
   background: $nam-green;
@@ -39,7 +39,7 @@ header {
     float: left;
     width: 128px;
   }
-  nav {
+  .nav {
     margin-right: 0;
     ul {
       list-style: none;
