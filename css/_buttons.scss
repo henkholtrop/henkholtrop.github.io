@@ -1,20 +1,21 @@
 $listmenu-icons:(button-add,button-edit,button-delete);
 @each $icons in $listmenu-icons {
   .#{$icons} { 
-    background: url('../img/#{$icons}.svg')no-repeat;
+    content: url('../img/#{$icons}.svg')no-repeat;
   }
 }
 
 .blue-button-round, .grey-button-round, .red-button-round {
   height: 35px;
   width: 35px;
-  border-radius: 18px;
+  background-image: url('../img/round-button.png');
+  background-size: 35px;
   float: left;
   margin-left: 10px;
   color: $nam-white;
   cursor: pointer;
-  -moz-box-shadow:    0px 1px 2px 0px rgba(0,0,0,0.30);
-  box-shadow:         0px 1px 2px 0px rgba(0,0,0,0.30);
+  //-moz-box-shadow:    0px 1px 2px 0px rgba(0,0,0,0.30);
+  //box-shadow:         0px 1px 2px 0px rgba(0,0,0,0.30);
 }
 
 .right {
@@ -34,9 +35,8 @@ $listmenu-icons:(button-add,button-edit,button-delete);
   position: absolute;
   height: 24px;
   width: 24px;
-  border-radius: 12px;
-  border: 1px solid;
-  border-color: $sdbr-darkgrey;
+  background-image: url('../img/close-background.png');
+  background-size: 24px;
   right: 15px;
   top: 13px;
   cursor: pointer;
@@ -78,7 +78,7 @@ $listmenu-icons:(button-add,button-edit,button-delete);
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 32px;
-  border-radius: 4px;
+  background: url('../img/medium-button-background.png');
   color: $nam-white;
   text-align: center;
   border: 0 none;
@@ -86,8 +86,8 @@ $listmenu-icons:(button-add,button-edit,button-delete);
   border-radius: 4px;
   cursor: pointer;
   font-weight: 600;
-  -moz-box-shadow:    0px 2px 4px 0px rgba(0,0,0,0.30);
-  box-shadow:         0px 2px 4px 0px rgba(0,0,0,0.30);
+  //-moz-box-shadow:    0px 2px 4px 0px rgba(0,0,0,0.30);
+  //box-shadow:         0px 2px 4px 0px rgba(0,0,0,0.30);
 }
 
 .grey-button-square {
@@ -132,54 +132,54 @@ $listmenu-icons:(button-add,button-edit,button-delete);
 
 .blue-large-button-square, .green-large-button-square, .red-large-button-square {
   height: 33px;
-  width: 100%;
+  width: 205px;
   margin: 10px 0px;
   line-height: 32px;
-  border-radius: 4px;
+  background: url('../img/big-button-background.png');
+  background-size: 205px;
   color: $nam-white;
   text-align: center;
   border: 0 none;
   font-size: 0.875em;
-  border-radius: 4px;
   cursor: pointer;
   font-weight: 600;
-  -moz-box-shadow:    0px 2px 4px 0px rgba(0,0,0,0.30);
-  box-shadow:         0px 2px 4px 0px rgba(0,0,0,0.30);
+  //-moz-box-shadow:    0px 2px 4px 0px rgba(0,0,0,0.30);
+  //box-shadow:         0px 2px 4px 0px rgba(0,0,0,0.30);
 }
 
 .blue-large-button-square {
-  background: $btn-blue;
+  background-color: $btn-blue;
   &:hover {
-    background: $btn-blue-hover;
+    background-color: $btn-blue-hover;
   }
-  &:pressed {
-    background: $btn-blue-pressed;
+  &:active {
+    background-color: $btn-blue-pressed;
   }
 }
 
 .green-large-button-square {
-  background: $btn-green;
+  background-color: $btn-green;
   &:hover {
-    background: $btn-green-hover;
+    background-color: $btn-green-hover;
   }
-  &:pressed {
-    background: $btn-green-pressed;
+  &:active {
+    background-color: $btn-green-pressed;
   }
 }
 
 .red-large-button-square {
-  background: $btn-red;
+  background-color: $btn-red;
   &:hover {
-    background: $btn-red-hover;
+    background-color: $btn-red-hover;
   }
-  &:pressed {
-    background: $btn-red-pressed;
+  &:active {
+    background-color: $btn-red-pressed;
   }
 }
 
 .inputfield {
   height: 31px;
-  width: 208px;
+  width: 201px;
   margin-bottom: 10px;
   border-radius: 4px;
   border: 1px solid;
@@ -197,7 +197,7 @@ $listmenu-icons:(button-add,button-edit,button-delete);
   -webkit-user-select: none;
   cursor: pointer;
   height: 160px;
-  width: 210px;
+  width: 201px;
   border-radius: 4px;
   border: 1px dashed;
   border-color: $nam-lightblue;

@@ -6,17 +6,19 @@
 }
 
 .login-wrap {
-  width: 210px;
+  width: 205px;
   display: table;
   padding: 25px 40px 10px ;
   background-color: $nam-white;
   border-radius: 4px;
+  behavior:url(border-radius.htc);
   div {
     margin: auto;
   }
   img {
-    content: url('../img/nam-logo-grey.svg');
-    margin: 0 77px 20px;
+    content: url('../img/nam-logo-grey.png');
+    width: 55px;
+    margin: 0 75px 20px;
   }
 }
 

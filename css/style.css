@@ -28,24 +28,23 @@ a {
   color: #4a90e2; }
 
 .button-add {
-  background: url("../img/button-add.svg") no-repeat; }
+  content: url("../img/button-add.svg") no-repeat; }
 
 .button-edit {
-  background: url("../img/button-edit.svg") no-repeat; }
+  content: url("../img/button-edit.svg") no-repeat; }
 
 .button-delete {
-  background: url("../img/button-delete.svg") no-repeat; }
+  content: url("../img/button-delete.svg") no-repeat; }
 
 .blue-button-round, .grey-button-round, .red-button-round {
   height: 35px;
   width: 35px;
-  border-radius: 18px;
+  background-image: url("../img/round-button.png");
+  background-size: 35px;
   float: left;
   margin-left: 10px;
   color: white;
-  cursor: pointer;
-  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3); }
+  cursor: pointer; }
 
 .right {
   float: right; }
@@ -62,9 +61,8 @@ a {
   position: absolute;
   height: 24px;
   width: 24px;
-  border-radius: 12px;
-  border: 1px solid;
-  border-color: #3b3d46;
+  background-image: url("../img/close-background.png");
+  background-size: 24px;
   right: 15px;
   top: 13px;
   cursor: pointer; }
@@ -96,16 +94,14 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 32px;
-  border-radius: 4px;
+  background: url("../img/medium-button-background.png");
   color: white;
   text-align: center;
   border: 0 none;
   font-size: 0.875em;
   border-radius: 4px;
   cursor: pointer;
-  font-weight: 600;
-  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3); }
+  font-weight: 600; }
 
 .grey-button-square {
   background: #b2b8c5; }
@@ -137,44 +133,42 @@ a {
 
 .blue-large-button-square, .green-large-button-square, .red-large-button-square {
   height: 33px;
-  width: 100%;
+  width: 205px;
   margin: 10px 0px;
   line-height: 32px;
-  border-radius: 4px;
+  background: url("../img/big-button-background.png");
+  background-size: 205px;
   color: white;
   text-align: center;
   border: 0 none;
   font-size: 0.875em;
-  border-radius: 4px;
   cursor: pointer;
-  font-weight: 600;
-  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3); }
+  font-weight: 600; }
 
 .blue-large-button-square {
-  background: #4a90e2; }
+  background-color: #4a90e2; }
   .blue-large-button-square:hover {
-    background: #6fa5e5; }
-  .blue-large-button-square:pressed {
-    background: #3c80d1; }
+    background-color: #6fa5e5; }
+  .blue-large-button-square:active {
+    background-color: #3c80d1; }
 
 .green-large-button-square {
-  background: #6abf28; }
+  background-color: #6abf28; }
   .green-large-button-square:hover {
-    background: #82d542; }
-  .green-large-button-square:pressed {
-    background: #60af23; }
+    background-color: #82d542; }
+  .green-large-button-square:active {
+    background-color: #60af23; }
 
 .red-large-button-square {
-  background: #fb6d50; }
+  background-color: #fb6d50; }
   .red-large-button-square:hover {
-    background: #fa8c75; }
-  .red-large-button-square:pressed {
-    background: #f06143; }
+    background-color: #fa8c75; }
+  .red-large-button-square:active {
+    background-color: #f06143; }
 
 .inputfield {
   height: 31px;
-  width: 208px;
+  width: 201px;
   margin-bottom: 10px;
   border-radius: 4px;
   border: 1px solid;
@@ -190,7 +184,7 @@ a {
   -webkit-user-select: none;
   cursor: pointer;
   height: 160px;
-  width: 210px;
+  width: 201px;
   border-radius: 4px;
   border: 1px dashed;
   border-color: #4a90e2;
@@ -229,16 +223,18 @@ a {
   width: 100%; }
 
 .login-wrap {
-  width: 210px;
+  width: 205px;
   display: table;
   padding: 25px 40px 10px;
   background-color: white;
-  border-radius: 4px; }
+  border-radius: 4px;
+  behavior: url(border-radius.htc); }
   .login-wrap div {
     margin: auto; }
   .login-wrap img {
-    content: url("../img/nam-logo-grey.svg");
-    margin: 0 77px 20px; }
+    content: url("../img/nam-logo-grey.png");
+    width: 55px;
+    margin: 0 75px 20px; }
 
 .error-message-username, .error-message-password {
   width: 195px;
