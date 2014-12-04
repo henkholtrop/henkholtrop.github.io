@@ -39,12 +39,14 @@ a {
 .blue-button-round, .grey-button-round, .red-button-round {
   height: 35px;
   width: 35px;
-  background-image: url("../img/round-button.png");
-  background-size: 35px;
+  border-radius: 4px;
   float: left;
   margin-left: 10px;
   color: white;
-  cursor: pointer; }
+  cursor: pointer;
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  behavior: url("../js/PIE.htc"); }
 
 .right {
   float: right; }
@@ -61,11 +63,13 @@ a {
   position: absolute;
   height: 24px;
   width: 24px;
-  background-image: url("../img/close-background.png");
-  background-size: 24px;
+  border-radius: 24px;
+  border: 1px solid;
+  border-color: #3b3d46;
   right: 15px;
   top: 13px;
-  cursor: pointer; }
+  cursor: pointer;
+  behavior: url("../js/PIE.htc"); }
 
 .blue-button-round {
   background-color: #4a90e2; }
@@ -94,14 +98,17 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 32px;
-  background: url("../img/medium-button-background.png");
+  border-radius: 4px;
   color: white;
   text-align: center;
   border: 0 none;
   font-size: 0.875em;
   border-radius: 4px;
   cursor: pointer;
-  font-weight: 600; }
+  font-weight: 600;
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  behavior: url("../js/PIE.htc"); }
 
 .grey-button-square {
   background: #b2b8c5; }
@@ -136,14 +143,16 @@ a {
   width: 205px;
   margin: 10px 0px;
   line-height: 32px;
-  background: url("../img/big-button-background.png");
-  background-size: 205px;
+  border-radius: 4px;
   color: white;
   text-align: center;
   border: 0 none;
   font-size: 0.875em;
   cursor: pointer;
-  font-weight: 600; }
+  font-weight: 600;
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
+  behavior: url("../js/PIE.htc"); }
 
 .blue-large-button-square {
   background-color: #4a90e2; }
@@ -172,7 +181,8 @@ a {
   margin-bottom: 10px;
   border-radius: 4px;
   border: 1px solid;
-  border-color: #4a90e2; }
+  border-color: #4a90e2;
+  behavior: url("../js/PIE.htc"); }
 
 .file-inputfield::-webkit-file-upload-button {
   display: none; }
@@ -232,7 +242,7 @@ a {
   .login-wrap div {
     margin: auto; }
   .login-wrap img {
-    content: url("../img/nam-logo-grey.png");
+    background-image: url("../img/nam-logo-grey.png");
     width: 55px;
     margin: 0 75px 20px; }
 
