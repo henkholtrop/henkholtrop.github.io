@@ -201,7 +201,8 @@ a {
   border-color: #4a90e2;
   text-align: center;
   line-height: 170px;
-  color: #4a90e2; }
+  color: #4a90e2;
+  behavior: url("../js/PIE.htc"); }
 
 .case-type-button {
   float: left;
