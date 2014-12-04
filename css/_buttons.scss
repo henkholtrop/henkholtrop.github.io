@@ -1,6 +1,8 @@
 $listmenu-icons:(button-add,button-edit,button-delete);
 @each $icons in $listmenu-icons {
-  .#{$icons} { background: url('../img/#{$icons}.png')no-repeat;}
+  .#{$icons} { 
+    background: url('../img/#{$icons}.svg')no-repeat;
+  }
 }
 
 .blue-button-round, .grey-button-round, .red-button-round {
@@ -8,11 +10,12 @@ $listmenu-icons:(button-add,button-edit,button-delete);
   width: 35px;
   border-radius: 18px;
   float: left;
-  margin-left: 20px;
+  margin-left: 10px;
   color: $nam-white;
   cursor: pointer;
   -moz-box-shadow:    0px 1px 2px 0px rgba(0,0,0,0.30);
   box-shadow:         0px 1px 2px 0px rgba(0,0,0,0.30);
+  behavior: url(PIE.htc);
 }
 
 .right {
@@ -23,51 +26,59 @@ $listmenu-icons:(button-add,button-edit,button-delete);
 }
 
 .center {
-  margin: auto;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .close-add {
-  content: url('../img/close.png');
+  content: url('../img/close.svg');
   position: absolute;
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: $sdbr-darkgrey;
   right: 15px;
   top: 13px;
   cursor: pointer;
+  behavior: url(PIE.htc);
 }
 
 .blue-button-round {
-  background-color: $nam-blue;
+  background-color: $btn-blue;
   &:hover {
-    background-color: $nam-lightblue;
+    background-color: $btn-blue-hover;
   }
   &:active {
-    background-color: $nam-darkblue;
+    background-color: $btn-blue-pressed;
   }
 }
 
 .grey-button-round {
-  background-color: $nam-btngrey;
+  background-color: $btn-white;
   &:hover {
-    background-color: $nam-btnlightgrey;
+    background-color: $btn-white-hover;
   }
   &:active {
-    background-color: $nam-btndarkgrey;
+    background-color: $btn-white-pressed;
   }  
 }
 
 .red-button-round {
-  background-color: $nam-red;
+  background-color: $btn-red;
   &:hover {
-    background-color: $nam-lightred;
+    background-color: $btn-red-hover;
   }
   &:active {
-    background-color: $nam-darkred;
+    background-color: $btn-red-pressed;
   }  
 }
 
 .blue-button-square, .green-button-square, .red-button-square, .grey-button-square {
   height: 33px;
   width: 74px;
-  margin: 10px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   line-height: 32px;
   border-radius: 4px;
   color: $nam-white;
@@ -76,24 +87,50 @@ $listmenu-icons:(button-add,button-edit,button-delete);
   font-size: 0.875em;
   border-radius: 4px;
   cursor: pointer;
+  font-weight: 600;
   -moz-box-shadow:    0px 2px 4px 0px rgba(0,0,0,0.30);
   box-shadow:         0px 2px 4px 0px rgba(0,0,0,0.30);
+  behavior: url(PIE.htc);
 }
 
 .grey-button-square {
-  background: $nam-btngrey;
+  background: $btn-white;
+  &:hover {
+    background: $btn-white-hover;
+  }
+  &:active {
+    background: $btn-white-pressed;
+  }
 }
 
 .blue-button-square {
-  background: $nam-blue
+  background: $btn-blue;
+  &:hover {
+    background: $btn-blue-hover;
+  }
+  &:active {
+    background: $btn-blue-pressed;
+  }
 }
 
 .green-button-square {
-  background: $nam-green
+  background: $btn-green;
+  &:hover {
+    background: $btn-green-hover;
+  }
+  &:active {
+    background: $btn-green-pressed;
+  }
 }
 
 .red-button-square {
-  background: $nam-red
+  background: $btn-red;
+  &:hover {
+    background: $btn-red-hover;
+  }
+  &:active {
+    background: $btn-red-pressed;
+  }
 }
 
 .blue-large-button-square, .green-large-button-square, .red-large-button-square {
@@ -108,28 +145,50 @@ $listmenu-icons:(button-add,button-edit,button-delete);
   font-size: 0.875em;
   border-radius: 4px;
   cursor: pointer;
+  font-weight: 600;
   -moz-box-shadow:    0px 2px 4px 0px rgba(0,0,0,0.30);
   box-shadow:         0px 2px 4px 0px rgba(0,0,0,0.30);
+  behavior: url(PIE.htc);
 }
 
 .blue-large-button-square {
-  background: $nam-blue
+  background: $btn-blue;
+  &:hover {
+    background: $btn-blue-hover;
+  }
+  &:pressed {
+    background: $btn-blue-pressed;
+  }
 }
 
 .green-large-button-square {
-  background: $nam-green
+  background: $btn-green;
+  &:hover {
+    background: $btn-green-hover;
+  }
+  &:pressed {
+    background: $btn-green-pressed;
+  }
 }
 
 .red-large-button-square {
-  background: $nam-red
+  background: $btn-red;
+  &:hover {
+    background: $btn-red-hover;
+  }
+  &:pressed {
+    background: $btn-red-pressed;
+  }
 }
 
 .inputfield {
-  height: 33px;
-  width: 203px;
+  height: 31px;
+  width: 208px;
+  margin-bottom: 10px;
   border-radius: 4px;
   border: 1px solid;
   border-color: $nam-lightblue;
+  behavior: url(PIE.htc);
 }
 
 .file-inputfield::-webkit-file-upload-button {
@@ -137,19 +196,20 @@ $listmenu-icons:(button-add,button-edit,button-delete);
 }
 
 .file-inputfield::before {
-  content: 'Select your files...';
+  content: url('../img/upload-button.svg');
   display: block;
   white-space: nowrap;
   -webkit-user-select: none;
   cursor: pointer;
-  height: 100px;
+  height: 160px;
   width: 210px;
   border-radius: 4px;
   border: 1px dashed;
-  border-color: $nam-blue;
+  border-color: $nam-lightblue;
   text-align: center;
-  line-height: 90px;
+  line-height: 170px;
   color: $nam-blue;
+  behavior: url(PIE.htc);
 }
 
 .case-type-button {
@@ -173,9 +233,17 @@ $listmenu-icons:(button-add,button-edit,button-delete);
     width: 20px;
     visibility: none;
     cursor: pointer;
-    content: url('../img/radio-button.png');
-    &:checked {
-      content: url('../img/radio-button-selected.png');
-    }
   } 
+}
+
+.case-status-button {
+  input[type=radio] {
+    margin: 0 44px;
+  }
+}
+
+.case-type-button {
+  input[type=radio] {
+    margin: 0 17px;
+  }
 }
