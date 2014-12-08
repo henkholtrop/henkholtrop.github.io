@@ -178,18 +178,18 @@ a {
   display: none; }
 
 .file-inputfield::before {
-  background-image: url("../img/upload-button.svg") no-repeat;
+  content: " ";
+  background: url("../img/upload-button.png") no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
   display: block;
   white-space: nowrap;
-  -webkit-user-select: none;
   cursor: pointer;
   height: 160px;
-  width: 201px;
+  width: 208px;
   border-radius: 4px;
   border: 1px dashed;
-  border-color: #4a90e2;
-  text-align: center;
-  line-height: 170px; }
+  border-color: #4a90e2; }
 
 .case-type-button {
   float: left;
