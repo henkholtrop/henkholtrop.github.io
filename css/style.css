@@ -183,7 +183,6 @@ a {
   background-position: center;
   background-size: 24px 24px;
   display: block;
-  white-space: nowrap;
   cursor: pointer;
   height: 160px;
   width: 208px;
@@ -218,6 +217,8 @@ a {
 .login-background {
   background: url("../img/background.JPG");
   background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/background.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/background.jpg', sizingMethod='scale')";
   position: absolute;
   height: 100%;
   width: 100%; }
@@ -232,8 +233,7 @@ a {
   .login-wrap div {
     margin: auto; }
   .login-wrap .grey-logo {
-    background-image: url("../img/nam-logo-grey.png");
-    background-size: 55px;
+    background-size: cover;
     width: 55px;
     height: 53px;
     margin: 0 75px 20px; }

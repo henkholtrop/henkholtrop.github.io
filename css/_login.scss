@@ -1,8 +1,8 @@
 .login-background {
   background: url('../img/background.JPG');
   background-size: cover;
-  //filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/background.jpg', sizingMethod='scale');
-  //-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/background.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/background.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/background.jpg', sizingMethod='scale')";
   position: absolute;
   height: 100%;
   width: 100%;
@@ -19,8 +19,7 @@
     margin: auto;
   }
   .grey-logo {
-    background-image: url('../img/nam-logo-grey.png');
-    background-size: 55px;
+    background-size: cover;
     width: 55px;
     height: 53px;
     margin: 0 75px 20px;
