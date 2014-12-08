@@ -53,7 +53,6 @@ a {
   margin-right: 70px; }
 
 .close-add {
-  content: url("../img/close.png") no-repeat;
   position: absolute;
   height: 24px;
   width: 24px;
@@ -169,7 +168,7 @@ a {
 
 .inputfield {
   height: 31px;
-  width: 201px;
+  width: 206px;
   margin-bottom: 10px;
   border-radius: 4px;
   border: 1px solid;
@@ -190,8 +189,7 @@ a {
   border: 1px dashed;
   border-color: #4a90e2;
   text-align: center;
-  line-height: 170px;
-  color: #4a90e2; }
+  line-height: 170px; }
 
 .case-type-button {
   float: left;
