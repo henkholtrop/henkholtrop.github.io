@@ -216,7 +216,7 @@ a {
   margin: 0 17px; }
 
 .login-background {
-  background: url("../img/background.JPG");
+  background: url("./img/background.JPG");
   background-size: cover;
   position: absolute;
   height: 100%;
