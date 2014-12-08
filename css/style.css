@@ -144,8 +144,7 @@ a {
   cursor: pointer;
   font-weight: 600;
   -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3);
-  behavior: url("../js/PIE.htc"); }
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3); }
 
 .blue-large-button-square {
   background-color: #4a90e2; }
@@ -174,8 +173,7 @@ a {
   margin-bottom: 10px;
   border-radius: 4px;
   border: 1px solid;
-  border-color: #4a90e2;
-  behavior: url("../js/PIE.htc"); }
+  border-color: #4a90e2; }
 
 .file-inputfield::-webkit-file-upload-button {
   display: none; }
@@ -193,8 +191,7 @@ a {
   border-color: #4a90e2;
   text-align: center;
   line-height: 170px;
-  color: #4a90e2;
-  behavior: url("../js/PIE.htc"); }
+  color: #4a90e2; }
 
 .case-type-button {
   float: left;
