@@ -66,11 +66,11 @@ a {
   behavior: url("../js/PIE.htc"); }
 
 .blue-button-round {
-  background-color: #4a90e2; }
+  background: #4a90e2; }
   .blue-button-round:hover {
-    background-color: #6fa5e5; }
+    background: #6fa5e5; }
   .blue-button-round:active {
-    background-color: #3c80d1; }
+    background: #3c80d1; }
 
 .grey-button-round {
   background-color: #b2b8c5; }
@@ -431,7 +431,6 @@ body {
   background: #6abf28; }
   .header img {
     margin: 12px 0 0 0;
-    content: url("../img/nam-logo.png") no-repeat;
     float: left;
     width: 128px; }
   .header .nav {

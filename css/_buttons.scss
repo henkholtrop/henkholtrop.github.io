@@ -42,12 +42,12 @@
 }
 
 .blue-button-round {
-  background-color: $btn-blue;
+  background: $btn-blue;
   &:hover {
-    background-color: $btn-blue-hover;
+    background: $btn-blue-hover;
   }
   &:active {
-    background-color: $btn-blue-pressed;
+    background: $btn-blue-pressed;
   }
 }
 

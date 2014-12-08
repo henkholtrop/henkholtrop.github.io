@@ -35,7 +35,6 @@ body {
   background: $nam-green;
   img {
     margin: 12px 0 0 0;
-    content: url('../img/nam-logo.png') no-repeat;
     float: left;
     width: 128px;
   }
@@ -117,7 +116,7 @@ body {
 
 #breadcrumb-highlight {
   font-weight: 600;
-  color: $txt-dark;
+  color: $txt-dark; 
 }
 
 .button-wrapper {
