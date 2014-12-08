@@ -105,32 +105,32 @@ a {
   behavior: url("../js/PIE.htc"); }
 
 .grey-button-square {
-  background: #b2b8c5; }
+  background-color: #b2b8c5; }
   .grey-button-square:hover {
-    background: #d0d6e3; }
+    background-color: #d0d6e3; }
   .grey-button-square:active {
-    background: #9a9fab; }
+    background-color: #9a9fab; }
 
 .blue-button-square {
-  background: #4a90e2; }
+  background-color: #4a90e2; }
   .blue-button-square:hover {
-    background: #6fa5e5; }
+    background-color: #6fa5e5; }
   .blue-button-square:active {
-    background: #3c80d1; }
+    background: -color #3c80d1; }
 
 .green-button-square {
-  background: #6abf28; }
+  background-color: #6abf28; }
   .green-button-square:hover {
-    background: #82d542; }
+    background-color: #82d542; }
   .green-button-square:active {
-    background: #60af23; }
+    background-color: #60af23; }
 
 .red-button-square {
-  background: #fb6d50; }
+  background-color: #fb6d50; }
   .red-button-square:hover {
-    background: #fa8c75; }
+    background-color: #fa8c75; }
   .red-button-square:active {
-    background: #f06143; }
+    background-color: #f06143; }
 
 .blue-large-button-square, .green-large-button-square, .red-large-button-square {
   height: 33px;

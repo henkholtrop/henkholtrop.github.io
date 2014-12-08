@@ -91,42 +91,42 @@
 }
 
 .grey-button-square {
-  background: $btn-white;
+  background-color: $btn-white;
   &:hover {
-    background: $btn-white-hover;
+    background-color: $btn-white-hover;
   }
   &:active {
-    background: $btn-white-pressed;
+    background-color: $btn-white-pressed;
   }
 }
 
 .blue-button-square {
-  background: $btn-blue;
+  background-color: $btn-blue;
   &:hover {
-    background: $btn-blue-hover;
+    background-color: $btn-blue-hover;
   }
   &:active {
-    background: $btn-blue-pressed;
+    background:-color $btn-blue-pressed;
   }
 }
 
 .green-button-square {
-  background: $btn-green;
+  background-color: $btn-green;
   &:hover {
-    background: $btn-green-hover;
+    background-color: $btn-green-hover;
   }
   &:active {
-    background: $btn-green-pressed;
+    background-color: $btn-green-pressed;
   }
 }
 
 .red-button-square {
-  background: $btn-red;
+  background-color: $btn-red;
   &:hover {
-    background: $btn-red-hover;
+    background-color: $btn-red-hover;
   }
   &:active {
-    background: $btn-red-pressed;
+    background-color: $btn-red-pressed;
   }
 }
 
