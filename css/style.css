@@ -216,7 +216,8 @@ a {
   margin: 0 17px; }
 
 .login-background {
-  background: #6abf28;
+  background: url("../img/background.JPG");
+  background-size: cover;
   position: absolute;
   height: 100%;
   width: 100%; }
@@ -281,7 +282,6 @@ a {
   behavior: url("../js/PIE.htc"); }
 
 .red-notification {
-  content: url("../img/red-notification.svg");
   float: right;
   height: 24px;
   width: 24px;
@@ -292,7 +292,6 @@ a {
   behavior: url("../js/PIE.htc"); }
 
 .green-notification {
-  content: url("../img/green-notification.svg");
   float: right;
   height: 24px;
   width: 24px;
@@ -475,6 +474,22 @@ body {
         color: #555555;
         font-weight: 200;
         font-style: italic; }
+      .main ul li .user-name {
+        width: 47%;
+        padding: 17px 3%; }
+        .main ul li .user-name a {
+          color: #6e6e6e;
+          text-decoration: none; }
+          .main ul li .user-name a:hover {
+            text-decoration: underline; }
+      .main ul li .user-type {
+        width: 35%;
+        color: #6e6e6e; }
+      .main ul li .user-status {
+        width: 10%;
+        color: #555555;
+        font-weight: 200;
+        font-style: italic; }
 
 .breadcrumb {
   float: left; }
@@ -510,3 +525,26 @@ body {
     width: 10%;
     float: left;
     font-size: 0.8em; }
+  .listheading .user-name-head {
+    width: 47.9%;
+    padding-left: 3%;
+    float: left;
+    font-size: 0.8em; }
+  .listheading .user-type-head {
+    width: 38.2%;
+    float: left;
+    font-size: 0.8em; }
+  .listheading .user-status-head {
+    width: 10%;
+    float: left;
+    font-size: 0.8em; }
+
+.user-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .user-list ul .user {
+    display: table;
+    width: 100%; }
+    .user-list ul .user:hover {
+      background: #f6f6f6; }

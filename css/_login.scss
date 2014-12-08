@@ -1,5 +1,8 @@
 .login-background {
-  background: $nam-green;
+  background: url('../img/background.JPG');
+  background-size: cover;
+  //filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/background.jpg', sizingMethod='scale');
+  //-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/background.jpg', sizingMethod='scale')";
   position: absolute;
   height: 100%;
   width: 100%;
