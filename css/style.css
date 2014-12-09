@@ -184,7 +184,7 @@ a {
   content: " ";
   background: url("../img/upload-button.png") no-repeat;
   background-position: center;
-  background-size: 24px 24px;
+  background-size: 48px 48px;
   display: block;
   cursor: pointer;
   height: 160px;
@@ -424,6 +424,9 @@ input[type=text], input[type=password] {
   color: #6e6e6e;
   text-align: center;
   border-radius: 8px 8px 0 0; }
+
+.dz-error-mark, .dz-progress, .dz-success-mark {
+  display: none; }
 
 html {
   height: 100%; }
