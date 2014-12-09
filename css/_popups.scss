@@ -11,7 +11,7 @@
 }
 
 .box-wrapper {
-  width: 210px;
+  width: 205px;
   background-color: $nam-white;
   margin: auto;
   display: table;
@@ -27,7 +27,8 @@
 
 .box-cell-wrapper {
   display: table-cell;
-  width: 210px;
+  width: 205px;
+  padding: 0;
   margin: 0 auto;
 }
 
